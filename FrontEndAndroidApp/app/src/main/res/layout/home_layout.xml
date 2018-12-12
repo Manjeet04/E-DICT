@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+   >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        app:cardBackgroundColor="@color/color2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.97">
+
+                <TextView
+                    android:id="@+id/word"
+                    android:text="Loading..."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#C6FF00"
+                    android:textSize="30sp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Meaning"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/word"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/kmeaning" />
+
+                <TextView
+                    android:id="@+id/meaning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#FF0000"
+                    android:layout_below="@+id/word"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/kmeaning"
+
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Synonym"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/meaning"
+                    android:layout_marginTop="10dp"
+
+                    android:id="@+id/ksynonym"
+
+                    />
+
+                <TextView
+                    android:id="@+id/synonym"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/meaning"
+                    android:textColor="#FF0000"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/ksynonym"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Antonym"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/synonym"
+                    android:layout_marginTop="10dp"
+
+                    android:id="@+id/kantonym"
+
+                    />
+
+                <TextView
+                    android:id="@+id/antonym"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/synonym"
+                    android:textColor="#FF0000"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/kantonym"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Word Origin"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/antonym"
+                    android:layout_marginTop="10dp"
+
+                    android:id="@+id/kwordorigin"
+
+                    />
+
+                <TextView
+                    android:id="@+id/wordorigin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/antonym"
+                    android:textColor="#FF0000"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/kwordorigin"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Example"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/wordorigin"
+                    android:layout_marginTop="10dp"
+
+                    android:id="@+id/kexample"
+
+                    />
+
+                <TextView
+                    android:id="@+id/example"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/wordorigin"
+                    android:textColor="#FF0000"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/kexample"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Hit Score"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/example"
+                    android:layout_marginTop="10dp"
+
+                    android:id="@+id/khitscore"
+
+                    />
+
+                <TextView
+                    android:id="@+id/hitscore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/example"
+                    android:textColor="#FF0000"
+                    android:layout_marginTop="10dp"
+                    android:visibility="gone"
+                    android:layout_toRightOf="@+id/khitscore"
+
+                    />
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

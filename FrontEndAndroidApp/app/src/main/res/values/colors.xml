@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#204060</color>
+    <color name="colorPrimaryDark">#161D24</color>
+    <color name="colorAccent">#0091EA</color>
+    <color name="colorAccentTransparent">#6603A9F4</color>
+
+    <color name="colorGradientTransparentWhite">#00FFFFFF</color>
+    <color name="colorGradientTransparentPrimary">#00204060</color>
+    <color name="colorGradientTranparentBlack">#C0000000</color>
+
+    <color name="colorPrimaryTransparent">#AA204060</color>
+    <color name="colorTextPrimary">#204060</color>
+
+    <array name="array_dot_active">
+        <item>@android:color/white</item>
+        <item>@android:color/white</item>
+        <item>@android:color/white</item>
+        <item>@android:color/white</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@android:color/white</item>
+        <item>@android:color/white</item>
+        <item>@android:color/white</item>
+        <item>@android:color/white</item>
+    </array>
+    <color name="color1">#5C6BC0</color>
+    <color name="color2">#42A5F5</color>
+    <color name="color3">#01579B</color>
+    <color name="color4">#795548</color>
+    <color name="color5">#00BCD4</color>
+    <color name="color6">#26A69A</color>
+    <color name="color7">#4CAF50</color>
+
+</resources>

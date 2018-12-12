@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroun">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        app:cardBackgroundColor="@color/color2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABOUT THE APP"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This app is purely made as an implementation example of the search engine called ElasticSearch and focuses to faciliate the customized search of the generic known dictionary.  "
+            android:textStyle="bold"
+            android:background="@color/color3"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:padding="6dp"/>
+        </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="5dp"
+        app:cardBackgroundColor="@color/color2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FEATURES"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:padding="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Implements the generic word to meaning dictionary, to find meaning of specific word.\n2. Implements the meaning to word dictionary to predict the word according to query and allows options to check into fields.\n3. Gives the users most searched words in the app.\n4. User can enter any word and its meaning in the dictionary"
+                android:textStyle="bold"
+                android:background="@color/color3"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:padding="6dp"/>
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+    </LinearLayout>

@@ -1,0 +1,299 @@
+<resources>
+    <string name="app_name">E-Dict</string>
+
+    <string name="GOOGLE_CLIENT_AUTHORISATION_TOKEN">229669696299-66hbe3n4tugvi3ksh1o73esoh9m0f3jv.apps.googleusercontent.com</string>
+
+    <string name="signed_in_fmt">Signed In as %1$s</string>
+
+    <string name="cityexploro_shared_preference">CityExploro</string>
+
+    <string name="ROOT_URL_DICT">https://ee-dict.herokuapp.com/</string>
+
+    <string name="ROOT_URL_DATA_ENTRY">https://prod-dataentry.cityexploro.com/</string>
+
+    <string name="ROOT_URL_SIGN_IN">https://prod-user.cityexploro.com/</string>
+
+    <string name="ROOT_URL_SEARCH">https://prod-search.cityexploro.com/</string>
+
+    <string name="ROOT_URL_EDUCATION">http://prod-education.cityexploro.com/</string>
+
+    <!-- Google Maps Key -->
+
+    <string name="google_maps_key">AIzaSyBt3OI_TZEF_tVUWs3pHtupRaLvc_WfvPc</string>
+
+    <!-- Topics for notification control -->
+
+    <!--<string name="topic_notification_service">notification_service</string>-->
+    <string name="topic_global_notification_service">notification_service</string>
+
+
+    <!-- API end points -->
+
+    <string name="url_search_outlet">outlet/search</string>
+
+    <string name="url_upload_image">dashboard/media/presign</string>
+
+    <string name="url_ambulance_service_list">emergency/ambulance/getAmbulanceServiceList</string>
+
+    <string name="url_ambulance_detail">emergency/ambulance/getAmbulanceServiceDetail</string>
+
+    <string name="url_auth_signup">auth/user/signup</string>
+
+    <string name="url_auth_login">auth/user/login</string>
+
+    <string name="url_blood_bank_list">emergency/bloodbank/getList</string>
+
+    <string name="url_blood_bank_detail">getBloodBankDetail</string>
+
+    <string name="url_blood_donor_availability">emergency/bloodbank/checkBloodDonorAvailability</string>
+
+    <string name="url_add_blood_donor">emergency/bloodbank/addBloodDonor</string>
+
+    <string name="url_request_blood_donor">emergency/bloodbank/requestBloodDonor</string>
+
+    <string name="url_fire_station_list">emergency/firestation/getList</string>
+
+    <string name="url_police_station_list">emergency/policestation/getList</string>
+
+    <string name="url_emergency_department_type">emergency/getDepartmentList</string>
+
+    <string name="url_dict_home">dict/getHome</string>
+
+    <string name="url_check_token">friends/get_token</string>
+
+    <string name="url_get_issue_comment_data">emergency/issue/getCommentList</string>
+
+    <string name="url_report_issue">emergency/issue/addOrUpdateIssue</string>
+
+    <string name="url_issues_list">emergency/issue/getList</string>
+
+    <string name="url_ngo_list">emergency/ngo/getList</string>
+
+    <string name="url_ngo_category">emergency/ngo/getCategoryList</string>
+
+    <string name="url_google_sign_in">auth/user/android/google</string>
+
+    <string name="url_profile_details">auth/user/me</string>
+
+    <string name="url_user_forgot_password">auth/user/forgotPassword</string>
+
+    <string name="url_add_word">dict/add_word</string>
+
+    <string name="add_token">friends/add_token</string>
+
+    <string name="url_user_issue_list">emergency/issue/getUserIssueList</string>
+
+    <string name="url_user_event_list">emergency/event/getUserEventList</string>
+
+    <string name="url_post_event">emergency/event/addOrUpdateEvent</string>
+
+    <string name="url_event_list">emergency/event/getList</string>
+
+    <string name="url_get_event_comment_data">emergency/event/getCommentList</string>
+
+    <string name="url_post_event_comment">emergency/event/commentOnEvent</string>
+
+    <string name="url_post_donation">emergency/donation/addDonation</string>
+
+    <string name="url_donation_list">emergency/donation/getDonationList</string>
+
+    <string name="url_contributor_stats">emergency/donation/getDonationStatistics</string>
+
+    <string name="url_receiver_stats">emergency/donation/getReceiverStatistics</string>
+
+    <string name="url_receiver_list">emergency/donation/getReceiverList</string>
+
+    <string name="url_post_request">emergency/donation/addReceiver</string>
+
+    <string name="url_admin_list">emergency/admin/getList</string>
+
+    <string name="url_other_list">emergency/other/getList</string>
+
+    <string name="url_get_cities">search/location/get_all_cities</string>
+
+    <string name="url_delete_event_comment">emergency/event/reportCommentSpam</string>
+
+    <string name="url_delete_issue_comment">emergency/issue/reportCommentSpam</string>
+
+    <string name="url_delete_event">emergency/event/deleteEvent</string>
+
+    <string name="url_delete_issue">emergency/issue/deleteIssue</string>
+
+    <string name="url_otp_verification_blood_donor">emergency/bloodbank/bloodDonorVerifyOTP</string>
+
+    <string name="url_otp_verification_blood_request">emergency/bloodbank/bloodRequestVerifyOTP</string>
+
+    <string name="url_resend_otp_blood_donor">emergency/bloodbank/bloodDonorResendOTP</string>
+
+    <string name="url_resend_otp_blood_request">emergency/bloodbank/bloodRequestResendOTP</string>
+
+    <string name="url_get_weather">search/location/get_city_weather</string>
+
+
+    <!-- shavi changes-->
+
+    <string name="url_education_home">education/getEducationHome</string>
+
+    <string name="url_tutor_list">education/tutor/getTutorList</string>
+
+    <string name="url_subject_stats">education/tutor/getSubjectStatistics</string>
+
+    <string name="url_school_list">education/school/getSchoolList</string>
+
+    <string name="url_school_home">education/school/getHomeSchoolDetails</string>
+
+    <string name="url_school_detail">education/school/getSchoolDetail</string>
+
+    <string name="url_tutor_home">education/tutor/getHomeTutorDetails</string>
+
+    <string name="url_coaching_home">education/coaching/getHomeCoachingDetails</string>
+
+    <string name="url_tutor_type">education/tutor/getTutorByType</string>
+
+
+    <string name="url_tutor_detail">education/tutor/getTutorDetail</string>
+
+    <string name="url_coaching_detail">education/coaching/getCoachingDetail</string>
+
+    <string name="url_department_list">education/school/getDepartmentList</string>
+
+    <string name="url_department_detail">education/school/getDepartmentDetail</string>
+
+    <string name="url_fee_list">education/school/getFeeList</string>
+
+    <string name="url_admission_list">education/school/getAdmissionInfo</string>
+
+    <string name="url_hostel_list">education/school/getHostelList</string>
+
+    <string name="url_infrastructure_list">education/school/getInfrastructureList</string>
+
+    <string name="url_sport_detail">education/school/getSportList</string>
+
+    <string name="url_transport_detail">education/school/getTransportList</string>
+
+    <string name="url_result_list">education/school/getResultList</string>
+
+    <string name="url_result_detail">education/school/getResultDetail</string>
+
+    <string name="url_filter">education/getFilters</string>
+
+    <string name="url_coaching_group">education/coaching/getCoachingGroupDetails</string>
+
+    <string name="url_compare_data">education/school/getCompareData</string>
+
+    <string name="url_review_list">education/school/getReviewList</string>
+
+    <string name="url_division_detail">education/coaching/getCoachingDivisionDetails</string>
+
+    <string name="url_division_admission">education/coaching/getCoachingDivisionCourseAdmissionInfo</string>
+
+    <string name="url_division_result">education/coaching/getCoachingDivisionResult</string>
+
+    <string name="url_division_faculty">education/coaching/getCoachingDivisionTeacherList</string>
+
+    <string name="url_division_course">education/coaching/getCoachingDivisionCourse</string>
+
+    <string name="url_school_filter_list">education/school/getSchoolListFilter</string>
+
+    <string name="url_coaching_filter_list">education/coaching/getCoachingListFilter</string>
+
+    <string name="url_tutor_filter_list">education/tutor/getTutorListFilter</string>
+
+    <string name="url_check_review">education/school/checkReviewStatus</string>
+
+    <string name="url_add_update_review">education/school/addOrUpdateReview</string>
+
+    <string name="url_check_coaching_review">education/coaching/checkReviewStatus</string>
+
+    <string name="url_add_update_coaching_review">education/coaching/addOrUpdateReview</string>
+
+    <string name="url_coaching_review_list">education/coaching/getReviewList</string>
+
+    <string name="url_check_tutor_review">education/tutor/checkReviewStatus</string>
+
+    <string name="url_add_update_tutor_review">education/tutor/addOrUpdateReview</string>
+
+    <string name="url_tutor_review_list">education/tutor/getReviewList</string>
+
+    <string name="url_transport_home">education/getTransportHome</string>
+
+    <string name="url_school_filter">education/school/getSchoolFilter</string>
+
+    <string name="url_coaching_filter">education/coaching/getCoachingFilter</string>
+
+    <string name="url_tutor_filter">education/tutor/getTutorFilter</string>
+
+    <string name="url_more_images">education/school/getFacilityImageByType</string>
+
+
+
+
+    <!--Demography API's-->
+    <string name="url_demography_home">demography/common/getDemographyHome</string>
+    <string name="url_attraction_home">demography/common/getHomeCityAttractions</string>
+    <string name="url_population_home">demography/common/getHomePopulation</string>
+    <string name="url_politics_home">demography/common/getHomeVoters</string>
+    <string name="url_attraction_detail">demography/city_attractions/get_attraction</string>
+    <string name="url_attraction_list">demography/city_attractions/get_attraction_by_type</string>
+
+
+    <string name="action_settings">About</string>
+    <string name="title_activity_school_map">Map</string>
+    <string name="title_activity_login">Login Activity</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_in_short">Sign in</string>
+    <string name="error_invsign_alid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email completions</string>
+    <string name="title_activity_fee_detail">FeeDetailActivity</string>
+    <string name="title_activity_test_activity_for_nav">TestActivityForNav</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="chose_department">Choose Department</string>
+
+    <string name="promo_msg_template">Hey, try this up! - %s . You will love it!</string>
+    <string name="app_url_play_store">http://play.google.com/store/apps/details?id=com.cityexploro.android</string>
+    <string name="first_open">first_Open</string>
+
+    <string name="something_went_wrong">something went wrong</string>
+
+    <!--welcome screen string resources-->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Take Pictures of issues</string>
+    <string name="slide_1_desc">Take picture of the issues to report from the area</string>
+
+    <string name="slide_2_title">Blood Donor</string>
+    <string name="slide_2_desc">Search Blood donor in the city and have a look at the blood account statistics
+        in the city</string>
+
+    <string name="slide_3_title">Emergency</string>
+    <string name="slide_3_desc">Watch out for the local emergencies such as police station, fire station,
+    blood bank and ambulance</string>
+
+    <string name="slide_4_title">NGO</string>
+    <string name="slide_4_desc">Search for the NGO inside the application</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="tap_to_reload">Tap to reload</string>
+    <string name="error_msg_no_internet">Not connected to internet</string>
+    <string name="error_msg_timeout">The server took too long to respond</string>
+    <string name="error_msg">Sorry! Couldn\'t fetch data.</string>
+    <string name="btn_retry">Retry</string>
+    <string name="error_msg_unknown">An unexpected error occurred</string>
+
+    <string name="outlet_details">outlet Details</string>
+
+</resources>
